@@ -99,7 +99,7 @@ let myArray = [1, 2, 3, 4, 5];
 myArray.length = 0;
 console.log(myArray);
 
-const cube=x=> x*x*x; 
+const cube=x=> x**3; 
 console.log(cube(2))
 
 const [a, b] = [1,2,3,4,45,5]; 
